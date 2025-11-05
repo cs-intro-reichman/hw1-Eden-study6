@@ -35,7 +35,8 @@ public class TimeFormat {
 			{
 				
 				System.out.println(hours + ":" + minutes1 + " AM");
-				
+
+				}
 			}
 	}
-}
+
