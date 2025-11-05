@@ -6,10 +6,10 @@ public class Bill3 {
 		String name2 = args[1];
 		String name3 = args[2];
 		double billnum = Double.parseDouble(args[3]);
-		double bill1 = (double) billnum/3.0 ;
-		bill1 = Math.ceil(bill1);
-		System.out.println("Dear " + name3 + ", " + name2 + " and " +
-		 name1 + ": pay " + bill1+ " Shekels each.");
-		// Replace this comment with the rest of your code   
+
+		// compute the share: round up (ceiling) and print with one decimal place
+		double share = Math.ceil(billnum / 3.0);
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " +
+			name1 + ": pay " + share + " Shekels each");
 	}
 }

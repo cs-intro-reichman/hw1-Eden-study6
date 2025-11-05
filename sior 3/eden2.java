@@ -4,14 +4,15 @@ public class eden2 {
         int a = Integer.parseInt(args[0]);
 		if (a == 1)
      {
-        System.out.printIn("admin");
-        System.out.printIn("super user");
+        System.out.println("admin");
+        System.out.println("super user");
+        
      }
      else 
     {
         if (a ==2)
         {
-        System.out.printIn("manager");
+        System.out.println("manager");
         }
         if (a ==3)
         {
