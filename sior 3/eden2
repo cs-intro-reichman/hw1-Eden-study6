@@ -1,0 +1,17 @@
+public class eden2 {
+	public static void main(String[] args) {
+		string a = args[0];
+        int ab = str.indexof("@");
+        string b = str.substring(ab);
+         length = 
+
+        if (ab != -1)
+        then {
+            system.out.printIn("valid email");
+        }
+        else {
+            system.out.printIn("invalid email")
+        }
+
+	}
+}
